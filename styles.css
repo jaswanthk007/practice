@@ -1,0 +1,81 @@
+.logo{
+    width:160px;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    margin: 8px;
+    color: #fff;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#000;
+}
+body{
+    background-color: #000;
+}
+.width{
+    width: 100%;
+}
+.bg-img{
+    background-image: url("https://m.media-amazon.com/images/I/61aURrton0L._SX3000_.jpg");
+    background-size: cover;
+    padding: 150px;
+}
+.bg-img-text>p{
+    color: #fff;
+    text-align: left;
+    margin-top: 50px;
+}
+.bg-img-text{
+    display: flex;
+}
+.color-white{
+    color: #fff;
+}
+.text-center{
+    text-align: center;
+}
+.display{
+    display: flex;
+}
+.display>p{
+    color: #fff;
+    margin: 15px;
+}
+.services{
+    margin:20px;
+    justify-content: center;
+}
+.card-container{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    height: 220px;
+    width: 250px;
+    text-align: center;
+}
+.card-container:hover{
+    background-color: #19c2ff;
+}
+.card-container>p{
+    font-size: 30px;
+
+}
+.card-container>img{
+    width: 100px;
+
+}
+.color-aqua{
+    background-color: aqua;
+}
+.color-azure{
+    background-color: azure;
+}
+.color-antique{
+    background-color: antiquewhite;
+}
